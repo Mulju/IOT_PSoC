@@ -47,6 +47,7 @@
 #include <sys/time.h>
 #include "serial1.h"
 #include <unistd.h>
+#include <stdlib.h>
 /**
  * @file    main.c
  * @brief   
