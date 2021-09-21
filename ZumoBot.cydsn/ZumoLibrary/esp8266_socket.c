@@ -116,7 +116,7 @@ smi EspSocketInstance;
 
 static void port2str(int i, char *str)
 {
-    int m = 10000;
+    int m = 100000;
     i %= m; // limit integer size to max 5 digits.
     while(i / m == 0) m/=10;
     while(m > 0) {
